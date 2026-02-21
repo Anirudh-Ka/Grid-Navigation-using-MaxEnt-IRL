@@ -70,4 +70,4 @@ Inverse Reinforcement Learning (IRL) solves the problem of learning behavior fro
 
 ---
 
-*Built as part of ML coursework at University of Maryland, December 2025*
+
