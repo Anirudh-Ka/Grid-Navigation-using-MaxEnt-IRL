@@ -1,12 +1,10 @@
 # Grid Navigation using Maximum Entropy IRL
 
-Learns to navigate a 2D grid world with obstacles by recovering a reward function from expert demonstrations — without being told what the reward is.
+Learns to navigate a 2D grid world with obstacles by recovering a reward function from expert demonstrations without being told what the reward is.
 
 This is an implementation of **Maximum Entropy Inverse Reinforcement Learning (MaxEnt IRL)**, where an agent observes expert paths and figures out *why* they're good, then uses that learned reward to navigate on its own.
 
 ![Learned Navigation Results](learned_navigation.png)
-
----
 
 ## What it does
 
@@ -22,7 +20,7 @@ The agent learns to weigh 5 interpretable features:
 - Distance to obstacles (stay clear)
 - Progress toward goal (keep moving forward)
 
----
+
 
 ## How to run
 
